@@ -3,6 +3,7 @@ const path = require('path')
 
 const app = express()
 
+
 const caminho = path.join(__dirname, 'templates')
 
 app.get('/', (requisicao, resposta) => {
@@ -12,3 +13,4 @@ app.get('/', (requisicao, resposta) => {
 app.listen(3000, () => {
     console.log("Servidor rodando na porta 3000")
 })
+
